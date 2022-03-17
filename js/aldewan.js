@@ -15,7 +15,7 @@ toTopBtn.onclick = function () {
     });
 };
 // Watch More
-if (window.location.pathname == "/index.html") {
+if (document.querySelector(".main-page") !== null) {
     let watchMoreSec = document.querySelector(".our-works .watch-more-sec");
     let watchMoreBtn = document.querySelector(".our-works .watch-more button");
     

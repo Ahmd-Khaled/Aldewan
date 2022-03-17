@@ -119,6 +119,8 @@ body {
 @media (max-width: 991px) {
     .head-contacts {display: none !important;}
 }
+.head-contacts .social-icons div {border-color: var(--blue-color);}
+.head-contacts .social-icons svg {color: var(--blue-color);}
 .navbar {margin-right: 10rem;}
 @media (max-width: 991px) {
     .navbar {margin-right: 0;}
@@ -128,8 +130,6 @@ body {
         padding: 1rem;
     }
 }
-.head-contacts .social-icons div {border-color: var(--blue-color);}
-.head-contacts .social-icons svg {color: var(--blue-color);}
 .navbar .navbar-brand img {
     margin-top: -8.25rem;
     margin-bottom: -6.5rem;
