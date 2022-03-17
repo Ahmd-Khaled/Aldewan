@@ -105,6 +105,27 @@ body {
 }
 .ask-price form input[type="submit"]:hover {opacity: 0.7;}
 /* -------------Main Page Styles-------------- */
+.page-head {
+    display: none;
+    border-bottom: 1px solid rgba(34, 64, 93, 0.066);
+}
+@media (max-width: 991px) {
+    .page-head {
+        display: flex;
+    }
+}
+.page-head svg {
+    color: var(--blue-color);
+}
+.page-head .top-h {
+    border-bottom: 1px solid rgba(34, 64, 93, 0.066);
+}
+.page-head .social-icons div {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid rgba(34, 64, 93, 0.066);
+    padding: 1rem;
+}
 .head-contacts .contacts .head-logo {margin-bottom: -6.5rem;}
 .head-contacts .contacts {border-bottom: 1px solid rgba(34, 64, 93, 0.066);}
 .head-contacts .contacts .tel .tel-num,
@@ -151,6 +172,14 @@ body {
 .carousel .carousel-inner .carousel-item  .slider-cap .slider-text {
     color: var(--gray-color);
     font-size: var(--px-25-size);
+}
+@media (max-width: 991px) {
+    .carousel .carousel-inner .carousel-item  .slider-cap .slider-title {
+        font-size: 2rem;
+    }
+    .carousel .carousel-inner .carousel-item  .slider-cap .slider-text {
+        font-size: var(--px-20-size);
+    }
 }
 .carousel .outer {
     background-color: var(--blue-color);
